@@ -1,3 +1,8 @@
 <resources>
     <string name="app_name">HappyBDay</string>
+    <string name="happy_birthday">Happy Birthday!</string>
+    <string name="from_ayana">From, Ayana</string>
+    <string name="fun_fact_puffins_rarely_change_mates_and_return_to_the_same_place_to_nest_year_after_year">Fun fact: Puffins rarely change mates and return to the same place to nest year after year!</string>
+    <string name="we_are_puffin_pals_friends_forever_no_matter_where_we_are_enjoy_your_day">We are Puffin Pals: Friends forever no matter where we are. Enjoy your day!!</string>
+    <string name="puffin">puffin</string>
 </resources>

@@ -1,4 +1,4 @@
-    package com.example.happybday
+package com.example.happybday
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
