@@ -6,19 +6,66 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="406dp"
+        android:layout_height="735dp"
+        android:background="#9EFFFFFF"
+        android:contentDescription="@string/puffin"
+        android:scaleType="centerCrop"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/puffin" />
+
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="16dp"
-        android:layout_marginLeft="16dp"
-        android:layout_marginTop="16dp"
+        android:layout_marginBottom="15dp"
         android:fontFamily="sans-serif-condensed-light"
         android:text="@string/happy_birthday"
-        android:textColor="@android:color/black"
+        android:textColor="#D8FF822E"
         android:textSize="34sp"
+        android:textStyle="bold|italic"
+        app:layout_constraintBottom_toTopOf="@+id/textView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.078"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.238" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="389dp"
+        android:layout_height="81dp"
+        android:layout_marginTop="94dp"
+        android:text="@string/fun_fact"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.272"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="366dp"
+        android:layout_height="83dp"
+        android:text="@string/puffin_pals"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/textView2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.488"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.909" />
 
     <TextView
         android:id="@+id/textView2"
@@ -28,50 +75,12 @@
         android:layout_marginRight="16dp"
         android:layout_marginBottom="16dp"
         android:fontFamily="sans-serif-light"
+        android:shadowColor="#45FF5722"
         android:text="@string/from_ayana"
-        android:textColor="@android:color/black"
-        android:textSize="24sp"
+        android:textColor="@color/white"
+        android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="356dp"
-        android:layout_height="83dp"
-        android:layout_marginTop="68dp"
-        android:text="@string/fun_fact_puffins_rarely_change_mates_and_return_to_the_same_place_to_nest_year_after_year"
-        android:textColor="@android:color/black"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.181"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView"
-        app:layout_constraintVertical_bias="0.0" />
-
-    <TextView
-        android:id="@+id/textView4"
-        android:layout_width="319dp"
-        android:layout_height="66dp"
-        android:layout_marginBottom="84dp"
-        android:text="@string/we_are_puffin_pals_friends_forever_no_matter_where_we_are_enjoy_your_day"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.891"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView"
-        app:layout_constraintVertical_bias="0.555" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="297dp"
-        android:layout_height="320dp"
-        android:contentDescription="@string/puffin"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.605"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.559"
-        app:srcCompat="@drawable/puffin" />
 </androidx.constraintlayout.widget.ConstraintLayout>
